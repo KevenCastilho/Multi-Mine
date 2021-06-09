@@ -24,5 +24,6 @@
 
 ###OBSERVAÇÕES
 - O Executavel do seu launcher de preferencia deve ir dentro da pasta que você criou, nunca dentro da .minecraft
-- Para ter certeza de que fez da forma correta a sua arvore de pastas deve ficar da seguinte forma:
+- Para ter certeza de que fez da forma correta a sua arvore de pastas deve ficar igual a imagem abaixo
+
 ![](https://i.imgur.com/GCcqkmz.png)
