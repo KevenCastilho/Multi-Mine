@@ -1,0 +1,10 @@
+C:\Users\Keven Castilho\source\repos\Multi Mine\bin\Release\Multi Mine.exe.config
+C:\Users\Keven Castilho\source\repos\Multi Mine\bin\Release\Multi Mine.exe
+C:\Users\Keven Castilho\source\repos\Multi Mine\bin\Release\Multi Mine.pdb
+C:\Users\Keven Castilho\source\repos\Multi Mine\obj\Release\Multi Mine.csproj.AssemblyReference.cache
+C:\Users\Keven Castilho\source\repos\Multi Mine\obj\Release\Multi_Mine.Main.resources
+C:\Users\Keven Castilho\source\repos\Multi Mine\obj\Release\Multi_Mine.Properties.Resources.resources
+C:\Users\Keven Castilho\source\repos\Multi Mine\obj\Release\Multi Mine.csproj.GenerateResource.cache
+C:\Users\Keven Castilho\source\repos\Multi Mine\obj\Release\Multi Mine.csproj.CoreCompileInputs.cache
+C:\Users\Keven Castilho\source\repos\Multi Mine\obj\Release\Multi Mine.exe
+C:\Users\Keven Castilho\source\repos\Multi Mine\obj\Release\Multi Mine.pdb

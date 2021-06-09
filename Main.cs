@@ -72,15 +72,20 @@ namespace Multi_Mine
         private void button2_Click(object sender, EventArgs e)
         {
             string DiretorioAtual = Directory.GetCurrentDirectory();
+            if (String.IsNullOrEmpty(cbPastas.Text))
+            {
+                MessageBox.Show("Escolha uma opção antes de continuar!", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
             string ItemSelecionado = cbPastas.SelectedItem.ToString();
-            if (!File.Exists(DiretorioAtual + "\\suas_ponto_minecraft\\" + ItemSelecionado + "mine.exe"))
+            if (!File.Exists(DiretorioAtual + "\\suas_ponto_minecraft\\" + ItemSelecionado + "\\mine.exe"))
             {
                 MessageBox.Show("Launcher (mine.exe) Não Encontrado!", "Erro !", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
             StreamWriter temp_bat = new StreamWriter("temp.cmd", true, Encoding.ASCII);
             temp_bat.WriteLine("cd " + DiretorioAtual + "\n\r");
-            temp_bat.WriteLine("cd minecraft \n\r");
+            temp_bat.WriteLine("cd suas_ponto_minecraft \n\r");
             temp_bat.WriteLine("set APPDATA=.\\\n\r");
             temp_bat.WriteLine("cd " + ItemSelecionado + "\n\r");
             temp_bat.WriteLine("start mine.exe\n\r");
