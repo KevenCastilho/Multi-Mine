@@ -22,7 +22,7 @@
 11. Aperte em jogar
 12. Caso adicione uma nova pasta enquanto o programa estiver aberto não precisa fecha-lo, basta apertar o botão "Atualizar"
 
-###OBSERVAÇÕES
+##OBSERVAÇÕES
 - O Executavel do seu launcher de preferencia deve ir dentro da pasta que você criou, nunca dentro da .minecraft
 - Para ter certeza de que fez da forma correta a sua arvore de pastas deve ficar igual a imagem abaixo
 
