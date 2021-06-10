@@ -46,6 +46,7 @@ namespace Multi_Mine
 
             foreach (DirectoryInfo dir in subPasta)
             {
+                cbPastas.Items.Remove(dir.Name);
                 cbPastas.Items.Add(dir.Name);
             }
         }
@@ -54,9 +55,10 @@ namespace Multi_Mine
         {
             String ItemSelecionado = cbPastas.SelectedItem.ToString();
             string DiretorioAtual = Directory.GetCurrentDirectory();
-            DirectoryInfo PastaItemSelecionado = new DirectoryInfo(ItemSelecionado);
+            string PastaAtualFull = DiretorioAtual + "\\suas_ponto_minecraft\\" + ItemSelecionado + "\\";
+            DirectoryInfo PastaItemSelecionado = new DirectoryInfo(PastaAtualFull);
             lblNome.Text = PastaItemSelecionado.Name;
-            lblCriadoEm.Text = PastaItemSelecionado.CreationTime.ToString();
+            lblCriadoEm.Text = PastaItemSelecionado.CreationTime.ToString("dd/MM/yyyy HH:mm:ss");
             lblCaminho.MaximumSize = new Size(212, 60);
             lblCaminho.AutoSize = true;
             lblCaminho.Text = PastaItemSelecionado.FullName;
